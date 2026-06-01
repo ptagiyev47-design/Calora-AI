@@ -6,15 +6,13 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 
-# Kitabxanalar
-requirements = python3,kivy==2.2.1,groq,requests,certifi,urllib3
+# Kitabxanaları dəqiq belə yaz:
+requirements = python3,kivy==2.2.1,groq,requests,certifi,urllib3,idna,charset-normalizer
 
 orientation = portrait
-osx.python_version = 3
-osx.kivy_version = 1.9.1
 fullscreen = 0
 
-# Android tənzimləmələri (DƏQİQ BUNLARI YAZ)
+# Android tənzimləmələri (BU HİSSƏ ÇOX VACİBDİR)
 android.permissions = INTERNET
 android.api = 31
 android.minapi = 21
